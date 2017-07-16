@@ -14,12 +14,12 @@
 }
 
 #time h5{
-  font-size: 150%;
+  font-size: 200%;
 }
 
 #time-info {
-  font-size: 100%;
-  margin-bottom: 50px;
+  font-size: 150%;
+  margin-bottom: 30px;
   font-style: italic;
   color: gray;
 }
@@ -33,23 +33,41 @@
 }
 
 .page-label {
+  font-size: 200%;
   height: 100px;
   line-height: 100px;
   text-align: center;
 }
 
+#center-table{
+   width: 100%;
+}
+
 #win-message {
-  font-size: 175%;
+  font-size: 250%;
   font-weight: bold;
-  margin-top: 50px;
+  margin-top: 30px;
   margin-bottom: 10px;
 }
 #path{
   margin-bottom: 30px;
 }
 
+#center-cell{
+    width: 200px;
+}
+
+#startTitle{
+  text-align: right;
+}
+
+#endTitle{
+  text-align: left;
+}
+
 body{
   width: 100%;
+  font-family: "Garamond";
 }
 
 button{
@@ -61,6 +79,16 @@ button{
   font-size: 200%;
 }
 
+.arrow{
+    width: 200px;
+    height: 50px;
+}
+
+.logo{
+    width: 700px;
+    height: 100px;
+}
+
 .center{
   align-self: center;
   align-items: center;
@@ -70,4 +98,19 @@ button{
 
 .wiki-font{
   font-family: hoefler_textregular, arial, serif;
+}
+
+.button-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.action-button{
+    width: 50%;
+}
+
+.bottom-text{
+    text-align: left;
+    color: gray;
+    padding: 12px 0 0 20px;
 }
